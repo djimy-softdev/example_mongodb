@@ -1,7 +1,7 @@
 defaults: &defaults
   uri: <%= ENV['MONGODB_URI'] %>
-  options:
-    ssl: false
+  # options:
+  #   # ssl: false
 
 development:
   <<: *defaults
